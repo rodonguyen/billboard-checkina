@@ -1,0 +1,104 @@
+/** @format */
+
+body {
+  padding: 6% 7%;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+table {
+  margin: 0% 4%;
+  padding-right: 7%;
+}
+
+button {
+  background: none;
+  text-align: left;
+  border: none;
+  padding: 0;
+  margin-bottom: 3px;
+  color: rgb(5, 74, 148);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+th {
+  padding-top: 0;
+  width: 15%;
+  vertical-align: top;
+}
+
+h3 {
+  margin: 3px;
+  text-align: left;
+  color: rgb(255, 119, 20);
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.date {
+    text-align: left;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.songItem {
+  margin: 5px;
+  text-align: left;
+  padding: 0% 0%;
+}
+
+#newsLink {
+  text-align: left;
+  margin: 2%;
+}
+
+
+p {
+    margin: 3px 5px;
+}
+
+a {
+    color: rgb(19, 140, 213);
+}
+
+a:visited {
+  color: rgb(38, 57, 231);
+}
+
+li {
+  margin: 3px 5px;
+  margin-top: 2px;
+  color: rgb(2, 59, 124);
+  font-weight: normal;
+}
+
+#lyrics {
+  margin: 2%;
+  text-align: left;
+  color: rgb(234, 77, 0);
+  font-weight: normal;
+}
+
+form {
+  padding-bottom: 12px;
+}
+
+input {
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #fd0c0c;
+  border-radius: 5px;
+  font: 16px "Segoe UI Semibold";
+  line-height: 23px;
+  padding: 0px 7px;
+  margin-bottom: 12px;
+}
+input:hover {
+  cursor: pointer;
+}

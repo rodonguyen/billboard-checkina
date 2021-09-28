@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1 BillBoard Checkina
+  table
+    tr
+      th#thleft 
+        h3 Top10 Hot List 🔥
+        .date #{date}
+        each title in hitList
+          .songItem 
+            button.songTitle #{title.title} - #{title.artist}
+      th
+        h3 Lyrics... 🎼
+        #youtubeSearch
+        #lyrics
+        br
+      th
+        h3 News... 📰
+        #news
+
+  script(src='/javascripts/loadClick.js')
+
+
+
