@@ -1,7 +1,8 @@
 # BillBoard Checkina
 
-This is simple BillBoard Hits Check App helping you to check the current top10 BillBoard Hit list, find lyrics for each song and latest news for each artist.
+Simple App that helps you check the current top10 BillBoard Hit list, find lyrics for each song and latest news for each artist.
 
+Implemented Web API.
 Created with [express-generator](https://expressjs.com/en/starter/generator.html) with Pug engine support.
 
 <br>
@@ -38,5 +39,5 @@ Created with [express-generator](https://expressjs.com/en/starter/generator.html
 
 ---
 
-A screenshot  
+## A screenshot  
 ![Output](/public/images/screenshot.png)
