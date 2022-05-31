@@ -10,7 +10,7 @@ router.get("/", async function (req, res, next) {
   const date = getRecentListDate();
   const top10urlHeaders = {
     "x-rapidapi-host": "billboard-api2.p.rapidapi.com",
-    "x-rapidapi-key": "5ed1cf5ef4msh16a5211c4c7f4f1p1dd1d8jsnaf2155c8eafa",
+    "x-rapidapi-key": "5ed1cf5ef4msh16a5211c4c7f4f1p1dd1d8jsnaf2155c8eafa",  // To put in .env and gitignore .env file :)  
   };
   const top10url = "https://billboard-api2.p.rapidapi.com/hot-100?range=1-10&date=" + date; 
 
